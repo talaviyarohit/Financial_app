@@ -1,0 +1,32 @@
+/* ExpenseCharts.css */
+.expense-charts {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h4 {
+    color: #343a40;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  
+  select {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 576px) {
+    h4 {
+      font-size: 1.25rem;
+    }
+  
+    .expense-charts {
+      padding: 10px;
+    }
+  }
+  

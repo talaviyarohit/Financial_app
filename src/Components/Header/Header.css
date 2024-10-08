@@ -1,0 +1,27 @@
+.navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar {
+    padding: 10px 0;
+  }
+  
+  .nav-link, .nav-dropdown-item {
+    color: #f8f9fa !important; /* Bootstrap's light color */
+  }
+  
+  .nav-link:hover {
+    color: #a9a9a9 !important; /* Lighter color on hover */
+  }
+  
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  .pr-a{
+    padding-right: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    
+  }
+  

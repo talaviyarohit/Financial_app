@@ -1,0 +1,31 @@
+.info-section {
+    background-color: #f8f9fa; /* Light background similar to the screenshot */
+  }
+  
+  .info-block {
+    padding: 40px;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-block h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .info-block p {
+    margin-bottom: 25px;
+    color: #666;
+  }
+  
+  .btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  

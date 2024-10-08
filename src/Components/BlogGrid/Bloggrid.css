@@ -1,0 +1,32 @@
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tags .badge {
+    background-color: #f8f9fa; 
+    color: #6c757d; /* Muted text */
+    font-size: 0.75rem;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight hover effect */
+  }
+  
+  .card-img-top {
+    height: 150px; /* Set fixed height for images */
+    object-fit: cover; /* Ensure image covers without distortion */
+  }
+  
+  .container {
+    /* background-color: #fafafa;  */
+    padding: 20px;
+  }
+  /* StatsSection.css */
+
+  

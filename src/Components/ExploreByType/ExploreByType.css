@@ -1,0 +1,50 @@
+.explore-by-type h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .explore-by-type p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  .type-card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    padding: 1.5rem;
+  }
+  
+  .type-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon-wrapper {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  
+  .type-icon {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .type-card {
+      margin-bottom: 1rem;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+.expense-list {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th {
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  th:hover {
+    color: #007bff;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .expense-list {
+      padding: 15px;
+    }
+  }
+  

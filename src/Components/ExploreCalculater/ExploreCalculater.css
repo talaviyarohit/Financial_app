@@ -1,0 +1,50 @@
+.tools-section {
+    background-color: #f5f8ff;
+  }
+  
+  .calculator-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .calculator-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .calculator-card .icon {
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 40px;
+    color: #4caf50;
+  }
+  
+  .sip-icon::before {
+    content: "🧮"; /* Placeholder icon */
+  }
+  
+  .mutual-fund-icon::before {
+    content: "📈"; /* Placeholder icon */
+  }
+  
+  .lumpsum-icon::before {
+    content: "👨‍💼"; /* Placeholder icon */
+  }
+  
+  .fd-icon::before {
+    content: "📊"; /* Placeholder icon */
+  }
+  
+  .view-all-link {
+    display: block;
+    color: #4caf50;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+  
